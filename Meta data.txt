@@ -1,0 +1,100 @@
+Here's an explanation of the column names in the dataset:
+
+
+physician_id                                             int64
+year_quarter                                             int64
+brand_prescribed                                         int64
+total_representative_visits                              int64
+total_sample_dropped                                     int64
+saving_cards_dropped                                     int64
+vouchers_dropped                                         int64
+total_seminar_as_attendee                                int64
+total_seminar_as_speaker                                 int64
+physician_hospital_affiliation                           int64
+physician_in_group_practice                              int64
+total_prescriptions_for_indication1                      int64
+total_prescriptions_for_indication2                      int64
+total_prescriptions_for_indication3                      int64
+total_patient_with_commercial_insurance_plan             int64
+total_patient_with_medicare_insurance_plan               int64
+total_patient_with_medicaid_insurance_plan               int64
+brand_web_impressions                                    int64
+brand_ehr_impressions                                    int64
+brand_enews_impressions                                  int64
+brand_mobile_impressions                                 int64
+brand_organic_web_visits                                 int64
+brand_paidsearch_visits                                  int64
+total_competitor_prescription                            int64
+new_prescriptions                                        int64
+physician_segment                                        int64
+urban_population_perc_in_physician_locality            float64
+percent_population_with_health_insurance_in_last10q    float64
+physician_gender                                         int64
+physician_tenure                                         int64
+physician_age                                            int64
+physician_speciality                                     int64
+
+
+1. physician_id (int64): Unique identifier for each physician.
+
+2. year_quarter (int64): Represents the time period in the format of a year and quarter (e.g., 202101 for Q1 of 2021).
+
+3. brand_prescribed (int64): Indicator of whether the physician prescribed the brand drug in the specified quarter (1 for prescribed, 0 for not prescribed).
+
+4. total_representative_visits (int64): Total number of visits made by pharmaceutical representatives to the physician during the quarter.
+
+5. total_sample_dropped (int64): Total number of drug samples provided to the physician during the quarter.
+
+6. saving_cards_dropped (int64): Total number of saving cards (discount cards) provided to the physician during the quarter.
+
+7. vouchers_dropped (int64): Total number of vouchers (similar to coupons) provided to the physician during the quarter.
+
+8. total_seminar_as_attendee (int64): Number of seminars or educational events the physician attended during the quarter.
+
+9. total_seminar_as_speaker (int64): Number of seminars or educational events where the physician participated as a speaker during the quarter.
+
+10. physician_hospital_affiliation (int64): Indicates whether the physician is affiliated with a hospital (1 for affiliated, 0 for not affiliated).
+
+11. physician_in_group_practice (int64): Indicates whether the physician is part of a group practice (1 for group practice, 0 for solo practice).
+
+12. total_prescriptions_for_indication1 (int64): Total number of prescriptions written by the physician for a specific medical indication (condition 1) during the quarter.
+
+13. total_prescriptions_for_indication2 (int64): Total number of prescriptions written by the physician for another specific medical indication (condition 2) during the quarter.
+
+14. total_prescriptions_for_indication3 (int64): Total number of prescriptions written by the physician for a third specific medical indication (condition 3) during the quarter.
+
+15. total_patient_with_commercial_insurance_plan (int64): Total number of patients under the physician's care with a commercial (private) insurance plan during the quarter.
+
+16. total_patient_with_medicare_insurance_plan (int64): Total number of patients under the physician's care with Medicare (federal insurance for seniors) during the quarter.
+
+17. total_patient_with_medicaid_insurance_plan (int64): Total number of patients under the physician's care with Medicaid (federal and state insurance for low-income individuals) during the quarter.
+
+18. brand_web_impressions (int64): Number of times the brand drug's advertisements were viewed on websites by the physician.
+
+19. brand_ehr_impressions (int64): Number of times the brand drug's advertisements were displayed within electronic health record (EHR) systems used by the physician.
+
+20. brand_enews_impressions (int64): Number of times the brand drug's advertisements were viewed in e-newsletters by the physician.
+
+21. brand_mobile_impressions (int64): Number of times the brand drug's advertisements were viewed on mobile devices by the physician.
+
+22. brand_organic_web_visits (int64): Number of times the physician visited the brand drug's website through organic search results (i.e., without paid advertising).
+
+23. brand_paidsearch_visits (int64): Number of times the physician visited the brand drug's website through paid search results (i.e., via ads).
+
+24. total_competitor_prescription (int64): Total number of prescriptions written by the physician for competitor drugs during the quarter.
+
+25. new_prescriptions (int64): Total number of new prescriptions written by the physician for the brand drug during the quarter.
+
+26. physician_segment (int32): Categorical segmentation of physicians based on certain criteria (e.g., high prescribers, moderate prescribers). This might be a label-encoded variable.
+
+27. urban_population_perc_in_physician_locality (float64): Percentage of the population living in urban areas within the physician's locality.
+
+28. percent_population_with_health_insurance_in_last10q (float64): Percentage of the population in the physician's locality with health insurance over the last 10 quarters.
+
+29. physician_gender (int32): Gender of the physician (e.g., 1 for male, 0 for female). This is likely a label-encoded variable.
+
+30. physician_tenure (int64): Number of years the physician has been practicing medicine.
+
+31. physician_age (int64): Age of the physician.
+
+32. **physician_speciality (int32)**: Physician's specialty (e.g., cardiology, nephrology). This is likely a label-encoded variable.
